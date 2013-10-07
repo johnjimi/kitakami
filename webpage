@@ -1,0 +1,230 @@
+<hr />
+<!doctype html>
+<!-- Designed by Jimi 6/13/12 
+This HTML/CSS code is created from scratch, and its kool-->
+<html>
+<head>
+	<style type="text/css">
+		.redtext {color:red;}
+		.titlecolor{color:yellow;}
+		
+		
+		div {border:2px solid red;
+			position:absolute;
+			<!--There are three different types of postition; 
+			"absolute", "relative", "fixed"-->
+			width:300px;
+			<!--top:40px;-->
+			left:35;
+			}
+		
+		<!-- "div" ability to define sections of the webpage -->
+		<!-- h1, p {color: red;} 
+		Style more than one elements-->
+		a:link{color:red;
+		text-decoration:none;
+		text-align:left;}
+		a:visited{color:pink;}
+		a:hover{background-color:lightgreen;
+				color:black;
+				text-decoration:underline;
+				font-weight:bold;}
+		a:active{background-color:orange;}		
+		<!--"link" for example called the "state". CSS code for a-->
+		
+		h1 {text-align:left;
+			background-color:white;
+			border: 1px solid red;
+			}
+		
+		body {background-color:black;
+			  text-align:center;
+			  font-family:courier new;
+			  color:teal;
+			  background-image:url(0d4be9fa703238591105d1013006ac73.jpg);
+			  background-repeat:no-repeat;
+			  background-position: 50% 25%;
+			  <!--background-position: 200px 200px; -->
+			  <!-- background-repeat:repeat-y or x; -->
+		}
+		
+		#001{border:5px solid blue;
+			position:absolute;
+			width:300px;
+			left:450;}
+			
+		#002{border:2px solid red;
+			 position:absolute;
+			 width:500px;
+			 left:200;}
+		
+		p  {line-height:150%;
+			text-align:left;
+			background-color:;
+			color:purple;
+			font-family:courier new;
+			text-indent:50px;
+			margin: 50px;
+			<!--padding is inside the border, margin is outside the border
+			margin-left/right/top:;
+			-->
+			}
+		span{font-weight:bold;
+			color:yellow;}
+		
+		table {border:3px solid teal;}
+		
+		
+		tr {font-family:
+			courier new;
+			background-color:;
+			width: px;
+			height: px;
+			border: 3px solid teal;
+			<!-- there's probably shortcuts like the one above^^^^ -->
+			<!-- not always useful but it can be necessary sometimes.-->
+			}
+			
+		ol {font-family:courier new;
+			border 3px solid lightgreen;
+			text-align:left;
+			}
+		
+		li {font-weight:bold;
+			border-top-color:yellow;
+			border-top-style:solid;
+			border-top-width:4px;
+			background-color:white;
+			text-align:left;
+			}
+			
+			
+		ul {list-style-type:hiragana;
+		    text-align:left;}	
+		<!--{list-style-image:url(___.png)}
+			{list-style-type:none;}
+			{border: 1px solid blue}
+			padding:0px;
+		-->
+		
+		h4 {text-align:left;
+			}
+		
+		h3 {text-align:left;
+			}
+	</style>
+<title> 30303030 </title>
+</head>
+<h1>Jimi's Prototype Webpage!<h1>
+
+<h4><a href="webpage2.html">|This will be a link to another page |</a></h4>
+
+<body>
+<h1> Jimi's Webpage </h1>
+
+</style>
+
+
+<h4>
+<a href="http://www.google.com" title="GOOGLE!">A link page back to Google </a>
+<p>This is paragraph text</p>
+<a href="http://www.youtube.com/watch?v=iqT0iFZifgw&feature=related" title="LBP2?"><img src="CLIVE.bmp" height="100"/></a>
+<a href="http://www.youtube.com/watch?v=iqT0iFZifgw&feature=related" title="Another Photo of the image"><img src="CLIVE.bmp" height="100"/></a>
+</h4>
+<hr />
+<div>This is a normal text.</div>
+<p class="redtext"> This paragrah is RED!</p>
+<p>This is a webpage under construction. Again this is a test site.
+This is created by Jimi. This is a sentence. This is another sentence.
+This is another sentence.This is another sentence.This is another sentence.
+This is another sentence.<span>This is another sentence.This is another sentence.
+This is another sentence.</span>This is another sentence.This is another sentence.
+This is another sentence.This is another sentence.This is another sentence.
+This is another sentence.This is another sentence.This is another sentence.
+This is another sentence.This is another sentence.This is another sentence.
+This is another sentence.This is another sentence.This is another sentence.
+This is another sentence.This is another sentence.This is another sentence.</p>
+<hr />
+<h3>Editor's Blog</h3>
+<p> 
+July 9, 2012: Another day to crank some brain power. -jimi 11:35AM
+July 8, 2012:
+- I learn alot today. Things at life has been interesting.
+-<span> I think this is going to be a good year. -jimi 11:55PM</span>
+<p id="001"> This is written in July 21, 2012 6:29:23PM</p>
+<p id="002"> This is written in July 21, 2012 6:30.03PM</p>
+-
+
+</p>
+
+<hr />
+<table border="3" cellpadding="10">
+
+	
+		<th></th>
+		<th>Title/Subject</th>
+		<th>Title/Subject</th>
+		<th>Title/Subject</th>
+			<tr>
+				<th>Subject 1</th>
+				<td>Words/Pics/Essays/Whatever(CELL)</td>
+				<td>Words/Pics/Essays/Whatever</td>
+				<td>Words/Pics/Essays/Whatever</td>
+			</tr>
+	
+	
+			<tr>
+				<th>Subject 2</th>
+				<td>Words/Pics/Essays/Whatever(CELL)</td>
+				<td>Words/Pics/Essays/Whatever</td>
+				<td>Words/Pics/Essays/Whatever</td>
+			</tr>
+	
+			<tr>
+				<th>Subject 3</th>
+				<td><a href="http://www.youtube.com/watch?v=iqT0iFZifgw&feature=related" title="Another Photo of the image"><img src="CLIVE.bmp" height="100"/></a></td>
+				<td>[N/A]</td>
+				<td>Words/Pics/Essays/Whatever</td>
+			</tr>
+	
+			<tr>
+				<th>Subject 4</th>
+				<td>[N/A]</td>
+				<td>[N/A]</td>
+				<td>Words/Pics/Essays/Whatever</td>
+			</tr>
+	
+	<tr>
+		<th>Subject 5</th>
+		<td>[N/A]</td>
+		<td>[N/A]</td>
+		<td>Words/Pics/Essays/Whatever</td>
+	</tr>
+</table>
+<hr />
+
+<h3>Meine Liste</h3>
+<ul>
+<li>Words/Pics/Essays/Whatever</li>
+<li>Words/Pics/Essays/Whatever</li>
+<li>Words/Pics/Essays/Whatever</li>
+<li>Words/Pics/Essays/Whatever</li>
+</ul>
+ 
+<h3>Meine order LisT</h3>
+
+<ol>
+	<li>Words/Pics/Essays/Whatever</li>
+	<li>Words/Pics/Essays/Whatever</li>
+	<li>Words/Pics/Essays/Whatever</li>
+	<li>WOLOLO! 303030</li>
+<ol>
+
+
+
+
+</body>
+
+<hr />
+<h4><a href="mailto:jimysom@yahoo.com">Needz hap or Need a MONK? Wololo! Email Jimi</a></h4>
+</html>
