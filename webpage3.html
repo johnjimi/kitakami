@@ -1,0 +1,68 @@
+<!doctype html>
+<!--
+Created by Jimi
+07.27.2012
+
+-->
+
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="external style sheet demo.css"/>
+
+	<style type="text/css">
+	form{color:white;}
+	</style>
+
+	<title> IlIlIlIIlII </title>
+</head>
+
+<body>
+<form action="dosomething.filename" method="post">
+	<!--"post" or "get"-->
+	Username ID: <input type="text" name="username" size="17" maxlength="8"/>
+<br/>
+	Password: <input type="password" name="pword" />
+	<!--"value" can be helpful by adding a description or an "default"-->
+<br/>
+	<input type="submit" value="LOG ME IN!"/>
+
+
+<br/>
+	Male: <input type="radio" name="sex" value="male">
+	Female: <input type="radio" name="sex" value="female">
+<br/>
+
+	<p>Select the foods that you would like to order!</p>
+	bacon: <input type="checkbox" name="food" value="bacon"/>
+	ham: <input type="checkbox" name="food" value="ham"/>
+	tuna: <input type="checkbox" name="food" value="tuna"/>
+	beef: <input type="checkbox" name="food" value="beef"/>
+	chicken: <input type="checkbox" name="food" value="chicken"/>
+<br/>
+
+
+<hr/>
+	<!--Defining where all the options go-->
+	<h3>What do you want to do today? </h3>
+		<select name="activities">
+			<option value="guitar">Play the guitar</option>
+			<option value="run">run</option>
+			<option value="sleep">sleep</option>
+			<option value="eat">eat</option>
+		</select>
+<hr/>
+<h3>Write something about yourself!</h3>
+<br/>
+	<textarea name="bio" rows="8" cols="40">
+	Type your true stories here
+	</textarea>
+<br/>
+
+<p>Now submit a file</p>
+<input type="file" name="jimisfile"/>
+<!--Make sure the type is "file"-->
+</form>
+</body>
+
+</html>
