@@ -1,7 +1,7 @@
 # kitakami
 <p align="center">
-    <a href="https://raw.githubusercontent.com/bureidake/bureidake.github.io/master/LICENSE" alt="MIT License">
-        <img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
+    <a href="https://raw.githubusercontent.com/johnjimysom/kitakami/master/LICENSE.md" alt="WTFPL License">
+        <img src="https://img.shields.io/badge/license-WTFPL-ff69b4.svg"/></a>
     <a href="#version">
         <img src="https://img.shields.io/badge/version-1.0-lightblue.svg"
             alt="version"></a>
